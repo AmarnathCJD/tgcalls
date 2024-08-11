@@ -1,0 +1,6 @@
+.env
+*.db
+*.dat
+*.mp3
+*.exe
+*.m4a
