@@ -61,7 +61,7 @@ func main() {
 }
 
 // join groupcall and start streaming audio
-func joinGroupCall(client *telegram.Client, ntg *libs.Client, chatId interface{}, media libs.MediaDescription) {
+func joinGroupCall(client *telegram.Client, ntg *libs.Client, chatId any, media libs.MediaDescription) {
 	me, _ := client.GetMe() // get the current user for JoinAs
 
 	call, err := client.GetGroupCall(chatId) // get the group call object
