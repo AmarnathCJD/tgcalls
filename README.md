@@ -21,5 +21,7 @@ go mod tidy
 go run . -file <path-to-audio-file> -group <group-username>
 ```
 
+[Using This Dev Release](https://github.com/pytgcalls/ntgcalls/actions/runs/12483942124)
+
 <h2>📚 NTgCalls</h2>
 <p>This example uses the <a href="https://github.com/pytgcalls/ntgcalls">NTgCalls</a> library to interact with the Telegram WebRTC API.</p>
